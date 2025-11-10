@@ -1,0 +1,11 @@
+torch
+transformers>=4.45
+datasets>=3.0
+evaluate
+scikit-learn
+pandas
+numpy
+matplotlib
+tqdm
+jupyterlab
+seaborn

@@ -1,0 +1,19 @@
+# OS / Editor files
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+.ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / Models / Outputs
+data/
+models/
+outputs/
