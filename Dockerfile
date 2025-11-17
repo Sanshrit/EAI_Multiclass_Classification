@@ -1,12 +1,12 @@
 FROM python:3.10-slim
 
-# For cleaner behavior
+
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-# Install system deps (optional but safe)
+# Install system deps
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git curl && \
     rm -rf /var/lib/apt/lists/*
