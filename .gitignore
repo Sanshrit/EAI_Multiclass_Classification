@@ -1,6 +1,7 @@
 # OS / Editor files
 .DS_Store
 .vscode/
+fix.py
 
 # Python
 __pycache__/
